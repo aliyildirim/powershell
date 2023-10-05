@@ -1,0 +1,1 @@
+Set-ADGroup -Identity "ABG" -Server agrobestgroup.local -Add @{authOrig=@('CN=Özlem Emer,OU=İnsan Kaynakları,OU=AgroBest,DC=AGROBESTGROUP,DC=LOCAL’)}
