@@ -16,7 +16,7 @@ Bunu aşmak için aşağıdaki adımları izleyebilirsiniz.
 Active Directory  sunucusunda powershell administrator olarak çalıştırılır.
 
 ```sh
-Set-ADGroup -Identity ["X Group"] -Server domain.local -Add @{authOrig=@('CN=[DisplayName],OU=[OU],DC=[DOMAIN,DC=LOCAL]’)}
+Set-ADGroup -Identity ["X Group"] -Server [domain.local] -Add @{authOrig=@('CN=[DisplayName],OU=[OU],DC=[DOMAIN,DC=LOCAL]’)}
 ```
 
 - "X Group" > Yetki atanacak grup adı.
