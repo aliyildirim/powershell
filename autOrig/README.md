@@ -1,6 +1,7 @@
-<h1 align="center">TEST</h1>
-# Powershell ile authOrig  yetkilendirmesi
-## _User'ın Group adına mail göndermesi_
+<h1 align="center">Powershell ile authOrig  yetkilendirmesi</h1>
+<h2 align="center">User'ın Group adına mail göndermesi</h2>
+
+## __
 
 [![N|PowerShell](https://delta-dev-software.fr/wp-content/uploads/2024/02/831-8318055_february-5-windows-powershell-logo.png)](https://github.com/aliyildirim/powershell)
 
