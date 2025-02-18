@@ -26,10 +26,6 @@ Set-ADGroup -Identity ["X Group"] -Server domain.local -Add @{authOrig=@('CN=[Di
 
 Artık yetkilendirdiğiniz kullanıcı X Group adına mail gönderebilecektir.
 
-```diff
-> [!CAUTION]
-> - [] işaretlerini kaldırmalsınız. Örnek ifade olarak kullanılmıştır.
-```
 
 > [!CAUTION]
 > - [] işaretlerini kaldırmalsınız. Örnek ifade olarak kullanılmıştır.
