@@ -22,10 +22,11 @@ Set-ADGroup -Identity ["X Group"] -Server domain.local -Add @{authOrig=@('CN=[Di
 - "X Group" > Yetki atanacak grup adı.
 - -Server domain tam adını yazmalısınız.
 - CN > user'ın Tam adı. (DisplayName)
-- OU > yetki vereceğiniz kullanıcı hangi OU altındaysa yazmalısınız. Birden OU altında OU'da da olabilir. User hangi OU'ların altındaysa tersten yazmalsınız.
+- OU > yetki vereceğiniz kullanıcı hangi OU altındaysa yazmalısınız. Birden fazla OU altında OU'da da olabilir. User hangi OU'ların altındaysa tersten yazmalsınız.
 
 Artık yetkilendirdiğiniz kullanıcı X Group adına mail gönderebilecektir.
 
-<i style="color: red;">[] işaretlerini kaldırmalsınız. Örnek ifade olarak kullanılmıştır.</i>
+<p style="Color:Red;"><i>[] işaretlerini kaldırmalsınız. Örnek ifade olarak kullanılmıştır.</i></p>
+
 
 
