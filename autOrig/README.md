@@ -28,5 +28,11 @@ Artık yetkilendirdiğiniz kullanıcı X Group adına mail gönderebilecektir.
 
 <p style="Color:Red;"><i>[] işaretlerini kaldırmalsınız. Örnek ifade olarak kullanılmıştır.</i></p>
 
-
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
