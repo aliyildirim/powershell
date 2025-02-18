@@ -4,12 +4,12 @@
 [![N|PowerShell](https://delta-dev-software.fr/wp-content/uploads/2024/02/831-8318055_february-5-windows-powershell-logo.png)](https://github.com/aliyildirim/powershell)
 
 ## Sorun
+![alt text](https://www.virtualizationhowto.com/wp-content/uploads/2020/10/Error-after-120-day-grace-period-has-expired-for-Remote-Desktop-Services.png?raw=true)
 RDP sunucularınızda CAL licence yok ise, 120 sonra licence hakkınız dolacaktır. 
 Dolayısıyla sunucunuza uzak bağlantı sağlanamayacaktır.
 
 Bunu aşmak için aşağıdaki adımları izleyebilirsiniz.
 
-![alt text](https://www.virtualizationhowto.com/wp-content/uploads/2020/10/Error-after-120-day-grace-period-has-expired-for-Remote-Desktop-Services.png?raw=true)
 
 ## Uygulama
 
