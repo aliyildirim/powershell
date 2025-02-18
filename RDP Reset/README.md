@@ -5,6 +5,7 @@
 
 ## Sorun
 ![alt text](https://www.virtualizationhowto.com/wp-content/uploads/2020/10/Error-after-120-day-grace-period-has-expired-for-Remote-Desktop-Services.png?raw=true)
+<br>
 RDP sunucularınızda CAL licence yok ise, 120 sonra licence hakkınız dolacaktır. 
 Dolayısıyla sunucunuza uzak bağlantı sağlanamayacaktır.
 
