@@ -1,0 +1,25 @@
+<h1 align="center">Powershell ile 120 Gün Licence Resetleme</h1>
+
+
+[![N|PowerShell](https://delta-dev-software.fr/wp-content/uploads/2024/02/831-8318055_february-5-windows-powershell-logo.png)](https://github.com/aliyildirim/powershell)
+
+## Sorun
+RDP sunucularınızda CAL licence yok ise, 120 sonra licence hakkınız dolacaktır. 
+Dolayısıyla sunucunuza uzak bağlantı sağlanamayacaktır.
+
+Bunu aşmak için aşağıdaki adımları izleyebilirsiniz.
+
+![alt text](https://github.com/aliyildirim/powershell/blob/main/autOrig/error.png?raw=true)
+
+## Uygulama
+
+Active Directory sunucusunda powershell'i Administrator olarak çalıştırmalısınız.
+
+```sh
+$keyPath = 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\GracePeriod'
+Remove-ItemProperty -Path $keyPath -Name '*L$RTMTIME*'
+shutdown /r  /t 60 /c "Lütfen açık olan ve çalışmakta olduğunuz xxxx gibi uygulamalarınızı veri kaybı yaşamamak için kaydedip çıkış yapınız. 60 sn içerisinde uzak sunucuyu yeniden başlatma devreye girecektir."
+```
+> [!TIP]
+> Server'a bir scheduler yazmak ve belirli periyotlarla özellikle gece saatlerinde tetiklettirmek çok daha mantıklı olaraktır.
+
