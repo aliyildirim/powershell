@@ -30,3 +30,5 @@ Artık yetkilendirdiğiniz kullanıcı X Group adına mail gönderebilecektir.
 - [] işaretlerini kaldırmalsınız. Örnek ifade olarak kullanılmıştır.
 ```
 
+> [!CAUTION]
+> Negative potential consequences of an action.
