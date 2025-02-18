@@ -9,7 +9,7 @@ Dolayısıyla sunucunuza uzak bağlantı sağlanamayacaktır.
 
 Bunu aşmak için aşağıdaki adımları izleyebilirsiniz.
 
-![alt text](https://github.com/aliyildirim/powershell/blob/main/autOrig/error.png?raw=true)
+![alt text](https://www.virtualizationhowto.com/wp-content/uploads/2020/10/Error-after-120-day-grace-period-has-expired-for-Remote-Desktop-Services.png?raw=true)
 
 ## Uygulama
 
