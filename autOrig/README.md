@@ -13,15 +13,15 @@ Bunu aşmak için aşağıdaki adımları izleyebilirsiniz.
 
 ## Uygulama
 
-Active Directory  sunucusunda powershell administrator olarak çalıştırılır.
+Active Directory sunucusunda powershell'i Administrator olarak çalıştırmalısınız.
 
 ```sh
 Set-ADGroup -Identity ["X Group"] -Server [domain.local] -Add @{authOrig=@('CN=[DisplayName],OU=[OU],DC=[DOMAIN,DC=LOCAL]’)}
 ```
 
 - "X Group" > Yetki atanacak grup adı.
-- -Server domain tam adını yazmalısınız.
-- CN > user'ın Tam adı. (DisplayName)
+- -Server > domain tam adını yazınız.
+- CN > user'ın tam adı. (DisplayName)
 - OU > yetki vereceğiniz kullanıcı hangi OU altındaysa yazmalısınız. Birden fazla OU altında OU'da da olabilir. User hangi OU'ların altındaysa tersten yazmalsınız.
 
 Artık yetkilendirdiğiniz kullanıcı X Group adına mail gönderebilecektir.
