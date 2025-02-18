@@ -6,7 +6,7 @@
 ## Sorun
 Bazen authOrig attribute'üne user eklemek isteriz ama aşağıdaki hatayı alabiliriz.
 Bunu aşmak için aşağıdaki adımları izleyebilirsiniz.
-![alt text](https://github.com/aliyildirim/powershell/blob/main/Grup%20Ad%C4%B1na%20Mail%20G%C3%B6nderme%20Yetkisi%20(user)/error.png?raw=true)
+![alt text](https://github.com/aliyildirim/powershell/blob/main/autOrig/error.png?raw=true)
 
 ## Uygulama
 
